@@ -1,0 +1,43 @@
+﻿@model MVCProjeKampi.Models.Statistics
+
+@{
+    ViewBag.Title = "Istatistik";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>İstatistik Verileri:</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="istatistik-box">
+                <div class="istatistik-yazi"> Toplam Kategori Sayısı: <div class="istatistik-model-veri">@Model.CategoryCount </div> </div> 
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="istatistik-box">
+                <div class="istatistik-yazi"> "yazılım" başlık sayısı: <div class="istatistik-model-veri">@Model.YazilimHeadingCount</div>  </div> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="istatistik-box">
+                <div class="istatistik-yazi"> 'A' harfi içeren yazar sayısı:  <div class="istatistik-model-veri">@Model.WriterACount</div></div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="istatistik-box">
+                <div class="istatistik-yazi"> En fazla başlığa sahip kategori: <div class="istatistik-model-veri">@Model.MostHeadingCategory</div> </div> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="istatistik-box">
+                <div class="istatistik-yazi"> Kategori Status Farkı: <div class="istatistik-model-veri">@Model.SubCtgStatus</div></div> 
+            </div>
+        </div>
+    </div>
+</div>
+

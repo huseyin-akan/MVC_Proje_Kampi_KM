@@ -7,17 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface ICategoryDal
+    public interface ICategoryDal : IRepository<Category>
     {
-        //CRUD
-        List<Category> List();
-
-        void Insert(Category ct);
-
-        void Update(Category ct);
-
-        void Delete(Category ct);
-
 
     }
 }

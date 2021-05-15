@@ -90,3 +90,5 @@ C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\EntityLayer.pdb
 C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\EntityLayer.dll.config
 C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\EntityFramework.xml
 C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\EntityFramework.SqlServer.xml
+C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\FluentValidation.dll
+C:\Users\HUSOKANUS\source\repos\MVCProjeKampi\MVCProjeKampi\bin\FluentValidation.xml

@@ -1,0 +1,19 @@
+﻿.istatistik-box{
+    background-color:#b6ff00;
+    height:250px;
+    border: 3px solid #000000;
+    margin-bottom:10px;
+    text-align:center;       
+}
+
+.istatistik-yazi {
+    margin-top: 60px;
+    color: black;
+    font-size: 30px;
+}
+
+.istatistik-model-veri{
+    font-size:50px;
+    color:#0005ff;
+    margin-top:20px;
+}
